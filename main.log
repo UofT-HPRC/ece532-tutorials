@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.5)  15 MAY 2018 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.9.5)  15 MAY 2018 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**vip_tutorial/src/main.tex
+(./vip_tutorial/src/main.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -409,7 +409,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box26
 \@float@everytoks=\toks19
 \@floatcapt=\box27
-) (./main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -424,7 +425,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
@@ -521,171 +521,327 @@ e
 
 LaTeX Warning: Reference `fig:bd' on page 1 undefined on input line 23.
 
-<nbd.png, id=1, 1910.13625pt x 1050.92625pt>
-File: nbd.png Graphic file (type png)
- <use nbd.png>
-Package pdftex.def Info: nbd.png used on input line 26.
-(pdftex.def)             Requested size: 469.75502pt x 258.44936pt.
 
-<naxivipconfig.png, id=2, 1380.15625pt x 1053.9375pt>
-File: naxivipconfig.png Graphic file (type png)
- <use naxivipconfig.png>
-Package pdftex.def Info: naxivipconfig.png used on input line 33.
-(pdftex.def)             Requested size: 469.75502pt x 358.71997pt.
+LaTeX Warning: File `nbd.png' not found on input line 26.
 
+
+! Package pdftex.def Error: File `nbd.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...includegraphics[width=\textwidth]{nbd.png}
+                                                  
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+l.26 ...includegraphics[width=\textwidth]{nbd.png}
+                                                  
+? 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: File `naxivipconfig.png' not found on input line 33.
+
+
+! Package pdftex.def Error: File `naxivipconfig.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...phics[width=\textwidth]{naxivipconfig.png}
+                                                  
+? 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./nbd.png (PNG copy)>]
-<naxigpioconfig.png, id=10, 992.70876pt x 808.01875pt>
-File: naxigpioconfig.png Graphic file (type png)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-<use naxigpioconfig.png>
-Package pdftex.def Info: naxigpioconfig.png used on input line 40.
-(pdftex.def)             Requested size: 496.35316pt x 404.00839pt.
+LaTeX Warning: File `naxigpioconfig.png' not found on input line 40.
 
-Overfull \hbox (26.59814pt too wide) in paragraph at lines 40--41
- [][] 
- []
 
-[2 <./naxivipconfig.png (PNG copy)>]
-<naxiconstantconfig.png, id=14, 805.0075pt x 695.59875pt>
-File: naxiconstantconfig.png Graphic file (type png)
+! Package pdftex.def Error: File `naxigpioconfig.png' not found.
 
-<use naxiconstantconfig.png>
-Package pdftex.def Info: naxiconstantconfig.png used on input line 47.
-(pdftex.def)             Requested size: 402.50278pt x 347.79852pt.
- [3 <./naxigpioconfig.png (PNG copy)>]
-<naddresseditor.png, id=18, 1510.64375pt x 738.76pt>
-File: naddresseditor.png Graphic file (type png)
- <use naddresseditor.png>
-Package pdftex.def Info: naddresseditor.png used on input line 54.
-(pdftex.def)             Requested size: 469.75502pt x 229.72339pt.
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ...udegraphics[scale=0.5]{naxigpioconfig.png}
+                                                  
+? 
 
-[4 <./naxiconstantconfig.png (PNG copy)>]
-<validatebd.png, id=22, 1142.2675pt x 340.27126pt>
-File: validatebd.png Graphic file (type png)
- <use validatebd.png>
-Package pdftex.def Info: validatebd.png used on input line 61.
-(pdftex.def)             Requested size: 456.89891pt x 136.10608pt.
+LaTeX Warning: File `naxiconstantconfig.png' not found on input line 47.
 
-<addsimfiles.png, id=24, 534.99875pt x 515.9275pt>
-File: addsimfiles.png Graphic file (type png)
- <use addsimfiles.png>
-Package pdftex.def Info: addsimfiles.png used on input line 71.
-(pdftex.def)             Requested size: 213.9957pt x 206.36734pt.
 
-[5 <./naddresseditor.png (PNG copy)> <./validatebd.png>]
+! Package pdftex.def Error: File `naxiconstantconfig.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...raphics[scale=0.5]{naxiconstantconfig.png}
+                                                  
+? 
+[2]
+
+LaTeX Warning: File `naddresseditor.png' not found on input line 54.
+
+
+! Package pdftex.def Error: File `naddresseditor.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 ...hics[width=\textwidth]{naddresseditor.png}
+                                                  
+? 
+[3]
+
+LaTeX Warning: File `validatebd.png' not found on input line 61.
+
+
+! Package pdftex.def Error: File `validatebd.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 ...includegraphics[scale=0.4]{validatebd.png}
+                                                  
+? 
+
+LaTeX Warning: File `addsimfiles.png' not found on input line 71.
+
+
+! Package pdftex.def Error: File `addsimfiles.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...ncludegraphics[scale=0.4]{addsimfiles.png}
+                                                  
+? 
+[4]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 75.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <12> not available
 (Font)              Font shape `OML/cmm/b/it' tried instead on input line 75.
 
-<componentname1.png, id=29, 522.95375pt x 356.33125pt>
-File: componentname1.png Graphic file (type png)
 
-<use componentname1.png>
-Package pdftex.def Info: componentname1.png used on input line 78.
-(pdftex.def)             Requested size: 261.47623pt x 178.16518pt.
- <componentname2.png, id=30, 776.9025pt x 329.23pt>
-File: componentname2.png Graphic file (type png)
+LaTeX Warning: Reference `fig:findnames' on page 5 undefined on input line 75.
 
-<use componentname2.png>
-Package pdftex.def Info: componentname2.png used on input line 85.
-(pdftex.def)             Requested size: 388.45029pt x 164.6146pt.
 
-<filehierarchy2.png, id=31, 565.11125pt x 127.47626pt>
-File: filehierarchy2.png Graphic file (type png)
+LaTeX Warning: File `componentname1.png' not found on input line 78.
 
-<use filehierarchy2.png>
-Package pdftex.def Info: filehierarchy2.png used on input line 91.
-(pdftex.def)             Requested size: 282.55493pt x 63.73796pt.
- [6 <./addsimfiles.png> <./componentname1.png>]
-<instancename1.png, id=38, 766.865pt x 156.585pt>
-File: instancename1.png Graphic file (type png)
- <use instancename1.png>
-Package pdftex.def Info: instancename1.png used on input line 99.
-(pdftex.def)             Requested size: 383.43156pt x 78.2923pt.
 
-<instancename2.png, id=39, 568.1225pt x 348.30125pt>
-File: instancename2.png Graphic file (type png)
- <use instancename2.png>
-Package pdftex.def Info: instancename2.png used on input line 105.
-(pdftex.def)             Requested size: 284.06055pt x 174.15019pt.
+! Package pdftex.def Error: File `componentname1.png' not found.
 
-[7 <./componentname2.png> <./filehierarchy2.png> <./instancename1.png>]
-<filehierarchy.png, id=47, 586.19pt x 214.8025pt>
-File: filehierarchy.png Graphic file (type png)
- <use filehierarchy.png>
-Package pdftex.def Info: filehierarchy.png used on input line 112.
-(pdftex.def)             Requested size: 293.09428pt x 107.40099pt.
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...udegraphics[scale=0.5]{componentname1.png}
+                                                  
+? 
+! Undefined control sequence.
+l.79 ...propriate component name for your VIP.} \n
+                                                   Note: Syntex checker erro...
 
-<tbanalysis.png, id=48, 544.0325pt x 151.56625pt>
-File: tbanalysis.png Graphic file (type png)
- <use tbanalysis.png>
-Package pdftex.def Info: tbanalysis.png used on input line 122.
-(pdftex.def)             Requested size: 272.01558pt x 75.78293pt.
- [8 <./instancename2.png> <./filehierarchy.png>]
-<addtbsignals.png, id=54, 707.64375pt x 518.93875pt>
-File: addtbsignals.png Graphic file (type png)
- <use addtbsignals.png>
-Package pdftex.def Info: addtbsignals.png used on input line 129.
-(pdftex.def)             Requested size: 353.82101pt x 259.46873pt.
+? 
 
-<relaunch.png, id=55, 436.63126pt x 88.33pt>
-File: relaunch.png Graphic file (type png)
- <use relaunch.png>
-Package pdftex.def Info: relaunch.png used on input line 135.
-(pdftex.def)             Requested size: 218.3151pt x 44.16489pt.
+LaTeX Warning: File `componentname2.png' not found on input line 84.
 
-<nsimwaveform.png, id=56, 1910.13625pt x 1050.92625pt>
-File: nsimwaveform.png Graphic file (type png)
- <use nsimwaveform.png>
-Package pdftex.def Info: nsimwaveform.png used on input line 142.
-(pdftex.def)             Requested size: 469.75502pt x 258.44936pt.
 
-<simruntclconsole.png, id=57, 1170.3725pt x 279.0425pt>
-File: simruntclconsole.png Graphic file (type png)
+! Package pdftex.def Error: File `componentname2.png' not found.
 
-<use simruntclconsole.png>
-Package pdftex.def Info: simruntclconsole.png used on input line 148.
-(pdftex.def)             Requested size: 469.75502pt x 111.99821pt.
- [9 <./tbanalysis.png> <./addtbsignals.png> <./relaunch.png>] <troubleshoot1.pn
-g, id=64, 431.6125pt x 298.11375pt>
-File: troubleshoot1.png Graphic file (type png)
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...udegraphics[scale=0.5]{componentname2.png}
+                                                  
+? 
 
-<use troubleshoot1.png>
-Package pdftex.def Info: troubleshoot1.png used on input line 158.
-(pdftex.def)             Requested size: 215.80571pt x 149.0565pt.
- [10 <./nsimwaveform.png (PNG copy)> <./simruntclconsole.png>] <exdesign.png, i
-d=69, 607.26875pt x 539.01375pt>
-File: exdesign.png Graphic file (type png)
- <use exdesign.png>
-Package pdftex.def Info: exdesign.png used on input line 165.
-(pdftex.def)             Requested size: 303.63364pt x 269.50621pt.
+LaTeX Warning: File `filehierarchy2.png' not found on input line 90.
 
-[11 <./troubleshoot1.png> <./exdesign.png>] (./main.aux)
+
+! Package pdftex.def Error: File `filehierarchy2.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...udegraphics[scale=0.5]{filehierarchy2.png}
+                                                  
+? 
+
+LaTeX Warning: Reference `fig:findnames' on page 5 undefined on input line 95.
+
+
+LaTeX Warning: File `instancename1.png' not found on input line 98.
+
+
+! Package pdftex.def Error: File `instancename1.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 ...ludegraphics[scale=0.5]{instancename1.png}
+                                                  
+? 
+
+LaTeX Warning: File `instancename2.png' not found on input line 104.
+
+
+! Package pdftex.def Error: File `instancename2.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 ...udegraphics[scale=0.5]{instancename2.png}
+                                                  
+? 
+[5]
+
+LaTeX Warning: File `filehierarchy.png' not found on input line 111.
+
+
+! Package pdftex.def Error: File `filehierarchy.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 ...udegraphics[scale=0.5]{filehierarchy.png}
+                                                  
+? 
+
+LaTeX Warning: File `tbanalysis.png' not found on input line 121.
+
+
+! Package pdftex.def Error: File `tbanalysis.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 ...ncludegraphics[scale=0.5]{tbanalysis.png}
+                                                  
+? 
+
+LaTeX Warning: File `addtbsignals.png' not found on input line 128.
+
+
+! Package pdftex.def Error: File `addtbsignals.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 ...ludegraphics[scale=0.5]{addtbsignals.png}
+                                                  
+? 
+
+LaTeX Warning: File `relaunch.png' not found on input line 134.
+
+
+! Package pdftex.def Error: File `relaunch.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ...\includegraphics[scale=0.5]{relaunch.png}
+                                                  
+? 
+[6]
+
+LaTeX Warning: File `nsimwaveform.png' not found on input line 141.
+
+
+! Package pdftex.def Error: File `nsimwaveform.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 ...phics[width=\textwidth]{nsimwaveform.png}
+                                                  
+? 
+
+LaTeX Warning: File `simruntclconsole.png' not found on input line 147.
+
+
+! Package pdftex.def Error: File `simruntclconsole.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ...s[width=\textwidth]{simruntclconsole.png}
+                                                  
+? 
+[7] [8]
+
+LaTeX Warning: File `troubleshoot1.png' not found on input line 157.
+
+
+! Package pdftex.def Error: File `troubleshoot1.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ...udegraphics[scale=0.5]{troubleshoot1.png}
+                                                  
+? 
+[9]
+
+LaTeX Warning: File `exdesign.png' not found on input line 164.
+
+
+! Package pdftex.def Error: File `exdesign.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 ...\includegraphics[scale=0.5]{exdesign.png}
+                                                  
+? 
+[10] [11] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 2487 strings out of 494945
- 34578 string characters out of 6181033
- 94869 words of memory out of 5000000
- 5741 multiletter control sequences out of 15000+600000
- 5209 words of font info for 19 fonts, out of 8000000 for 9000
+ 2408 strings out of 494945
+ 32880 string characters out of 6181033
+ 95694 words of memory out of 5000000
+ 5662 multiletter control sequences out of 15000+600000
+ 5378 words of font info for 20 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,7n,32p,428b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,6n,32p,445b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (11 pages, 760599 bytes).
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (11 pages, 57212 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
