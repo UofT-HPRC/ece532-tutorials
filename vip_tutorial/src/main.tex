@@ -23,37 +23,37 @@ The goal of this tutorial is to demonstrate how to use the Xilinx AXI Verificati
 	\item Add and wire the \textbf{AXI Verification IP}, \textbf{AXI GPIO}, and \textbf{Constant} IPs to the diagram as shown in Figure \ref{fig:bd} below. Make sure that the port names match the figure.
 		\begin{figure}[h]
 		  \centering
-		  \includegraphics[width=\textwidth]{bd.png}
+		  \includegraphics[width=\textwidth]{nbd.png}
 		  \caption{Block design.}
-		  \label{fig:bd}
+		  \label{fig:nbd}
 		\end{figure}
 	\item Configure the \textbf{basic settings} tab of the \textbf{AXI VIP IP} as shown in the following figure. Leave the advance settings at their default values. This will set the VIP into AXI lite mode. 
 		\begin{figure}[H]
 		  \centering
-		  \includegraphics[scale=0.5]{axivipconfig.png}
+		  \includegraphics[width=\textwidth]{naxivipconfig.png}
 		  \caption{AXI VIP configuration window.}
-		  \label{fig:axivipconfig}
+		  \label{fig:naxivipconfig}
 		\end{figure}
 	\item Configure the \textbf{AXI GPIO IP} as shown in the following figure. We will be using the VIP to set the LEDs and read from the push buttons.
 		\begin{figure}[H]
 		  \centering
-		  \includegraphics[scale=0.5]{axigpioconfig.png}
+		  \includegraphics[scale=0.5]{naxigpioconfig.png}
 		  \caption{AXI GPIO configuration window.}
-		  \label{fig:axigpioconfig}
+		  \label{fig:naxigpioconfig}
 		\end{figure}
 	\item Configure the \textbf{Constant} IP as shown in the following figure. The constant value of 5 will simulate pushing buttons 0 and 2.
 		\begin{figure}[H]
 		  \centering
-		  \includegraphics[scale=0.5]{axiconstantconfig.png}
+		  \includegraphics[scale=0.5]{naxiconstantconfig.png}
 		  \caption{Constant configuration window.}
-		  \label{fig:axiconstantconfig}
+		  \label{fig:naxiconstantconfig}
 		\end{figure}
 	\item Go the \textbf{address editor} tab and set the offset address to \textbf{0x40000000}.
 		\begin{figure}[H]
 		  \centering
-		  \includegraphics[scale=0.5]{addresseditor.png}
+		  \includegraphics[width=\textwidth]{naddresseditor.png}
 		  \caption{Address Editor}
-		  \label{fig:addresseditor}
+		  \label{fig:naddresseditor}
 		\end{figure}
 	\item Validate the block design, create the HDL wrapper, and generate the block design. 
 		\begin{figure}[H]
@@ -138,13 +138,13 @@ The goal of this tutorial is to demonstrate how to use the Xilinx AXI Verificati
 	\item Analyze the tb results...
 		\begin{figure}[H]
 		  \centering
-		  \includegraphics[scale=0.4]{simwaveform.png}
+		  \includegraphics[width=\textwidth]{nsimwaveform.png}
 		  \caption{Simulation waveform.}
-		  \label{fig:simwaveform.png}
+		  \label{fig:nsimwaveform.png}
 		\end{figure} 
 		\begin{figure}[H]
 		  \centering
-		  \includegraphics[scale=0.5]{simruntclconsole.png}
+		  \includegraphics[width=\textwidth]{simruntclconsole.png}
 		  \caption{Tcl console print out of register.}
 		  \label{fig:simruntclconsole}
 		\end{figure} 
